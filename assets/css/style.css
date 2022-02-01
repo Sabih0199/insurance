@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+@import url("https://use.typekit.net/gnd7jjh.css");
+
+body {
+    font-family: "droid-sans", sans-serif;
+}
+.ff-oswald {
+    font-family: "Oswald", sans-serif;
+}
+.ff-droid {
+    font-family: "droid-sans", sans-serif;
+}
+.fw-500 {
+    font-weight: 500;
+}
+.bg-clr-primary {
+    background-color: #135190;
+}
+.bg-clr-secondary {
+    background-color: #04a7f4;
+}
+.clr-primary {
+    color: #135190;
+}
+.clr-secondary {
+    color: #04a7f4;
+}
+.fs-43 {
+    font-size: 43.85px;
+}
+.fs-69 {
+    font-size: 69.86px;
+}
+.fs-101 {
+    font-size: 101.97px;
+}
+.fs-60 {
+    font-size: 60.25px;
+}
+.pointer {
+    cursor: pointer;
+}
+.top-nav {
+    padding: 14px 0px;
+}
+.top-nav .social-icons i:not(:last-child) {
+    margin-right: 13px;
+}
+.top-nav .social-icons i:first-child,
+.top-nav .social-icons i:nth-child(4) {
+    border-right: 1px solid #fff;
+    padding-right: 13px;
+}
+.logo-wrapper {
+    padding: 18px 0 31px;
+}
+.banner .carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.slide-text-wrap {
+    min-height: 560px;
+}
+.slide-text {
+    z-index: 1;
+}
+.slide-text > div {
+    line-height: 85px;
+}
+.banner .carousel-indicators button {
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    background-color: #e5e5e5;
+    opacity: 1;
+}
+.banner .carousel-indicators button.active {
+    background-color: #04a7f4;
+}
+.calculator-form {
+    padding: 58px 0;
+}
+.calculator-form input:not(.result) {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    margin-right: 14px;
+}
+.calculator-form .btn-calc {
+    background-color: #42586d;
+    border-radius: 20px;
+    color: #fff;
+    min-width: 184px;
+    margin-right: 57px;
+}
+.calculator-form input.result {
+    background-color: transparent;
+    border: none;
+    font-family: "Oswald", sans-serif;
+    pointer-events: none;
+    font-size: 82.83px;
+    color: white;
+    max-width: 130px;
+    padding: 0;
+}
+.calculator-form input.result::placeholder {
+    color: white;
+}
